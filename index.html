@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white; 
+            color: black;
+        }
+
+        header {
+            background-color: #5680E9; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            border-bottom: 2px solid black; 
+            padding-bottom: 10px;
+            color: black; 
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Project and Blog Post Styles */
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #84CEEB; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5AB9EA; 
+        }
+
+
+        /* Contact Section */
+        #contact p {
+            font-size: 1.1em;
+        }
+
+        #contact a {
+            color: #5680E9;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #8860D0; 
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Mathusri.V, a young brain with a passion for web development.I am dedicated,organized and methodical individual.I have a good interpersonal skills,am a excellent team worker and very willing to learn and develop new skills.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Hospital Management System</h3>
+                <ul class="spaced-list">
+                    <li>The system helps to automate the process of scheduling appointments and collision.
+                    </li>
+                    
+                    <li>
+                        Developed using HTML,CSS and JS ,Django.
+                    </li>
+                
+                </ul>
+                
+            </div>
+            <div class="project">
+                <h3>Railway management System</h3>
+                <ul class="spaced-list">
+                    <li>    The system provides efficient and effective ways to manage operations.
+                    </li>
+                    <li>
+                        Developed using as HTML,CSS ,JS and Mysql.
+                    </li>
+                
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Urban Traffic flow Analysis</h3>
+                <ul class="spaced-list">
+                    <li>Analyse the traffic data from a city to visualize highlight peak times and congestion points.</li>
+                    
+                        
+
+                    <li>
+                        Developed using Tableau.
+                    </li>
+                
+                </ul>         
+               
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Alumni Coordinator in Department Association</h3>
+                <p id="post1">"Arise, awake and stop not till the goal is reached." - Swami Vivekananda 
+                    <br><br>
+                    I am excited to share that ,I have been a House Captain for 2 years .
+                    <br><br>
+                    MGMS award for Academic year-2022,2023
+                    <br><br>
+                    Eager to collaborate with fellow department members to accomplish great things.
+                    <br><br>
+                    Here's to pursuing excellence and striving for even greater success in the future! 
+                    #kumaraguruCollegeofTechnology
+                    #informationtechnology hashtag #lifeatkct
+                    #gratitude</p>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mathusrivijayakumar@gmail.com">mathusrivijayakumar@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mathu-sri-58b153229" target="_blank">mathu-sri-58b153229</a></p>
+            <p>GitHub: <a href="https://github.com/mathusrivijayakumar" target="_blank">mathusrivijayakumar</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mathusri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
